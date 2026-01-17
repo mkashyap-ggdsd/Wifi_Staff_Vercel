@@ -43,7 +43,7 @@ export default function Home() {
             USERNAME
             </p>
 
-                <p style={{ fontSize: '28px', fontWeight: '900', marginBottom: '20px' }}>
+                <p style={{ fontSize: '24px', fontWeight: '900', marginBottom: '20px' }}>
                 {result.username}
   </p>
 
