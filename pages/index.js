@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div style={styles.container}>
       <div style={styles.card}>
-        <h1 style={styles.title}>GGDSD College Students WiFi Credentials</h1>
+        <h1 style={styles.title}>GGDSD College Staff WiFi Credentials</h1>
         <input placeholder="Enter Your College ID of 4 Digits" maxLength="4" onChange={e=>setRoll(e.target.value)} style={styles.input}/>
         <input placeholder="Enter First 4 Digits of your Phone No." maxLength="4" onChange={e=>setReg(e.target.value)} style={styles.input}/>
         <button onClick={fetchData} style={styles.button}>Get Credentials</button>
